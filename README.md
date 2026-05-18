@@ -105,5 +105,115 @@ docker --version
 
 # 🚀 Next Step
 
-Day 2:
-Dockerized Web Application Deployment
+
+
+---
+
+# 🚀 Day 2 — Dockerized Web Application Deployment
+
+## 📌 Tasks Completed
+
+- Created a sample web application
+- Built a Docker image using Dockerfile
+- Ran the container on AWS EC2
+- Configured port mapping for public access
+- Verified live application deployment in browser
+
+---
+
+# 🛠 Files Created
+
+## index.html
+
+```html
+<h1>Dockerized AWS DevOps Project 🚀</h1>
+```
+
+---
+
+## Dockerfile
+
+```dockerfile
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+```
+
+---
+
+# 🛠 Commands Used
+
+## Build Docker Image
+
+```bash
+docker build -t myapp .
+```
+
+---
+
+## Verify Docker Image
+
+```bash
+docker images
+```
+
+---
+
+## Run Docker Container
+
+```bash
+docker run -d -p 8080:80 myapp
+```
+
+---
+
+## Verify Running Container
+
+```bash
+docker ps
+```
+
+---
+
+# 🌐 Application Access
+
+```text
+http://PUBLIC-IP:8080
+```
+
+---
+
+# 📸 Screenshots
+
+## Docker Image Created
+
+<img width="1887" height="854" alt="docker-images" src="https://github.com/user-attachments/assets/cbf0b059-7728-4dc1-a72f-39b6ae90435a" />
+
+---
+
+## Running Docker Container
+
+<img width="1887" height="854" alt="docker-images" src="https://github.com/user-attachments/assets/ee8cf653-3600-4e48-883a-b537dc177901" />
+
+---
+
+## Browser Output
+
+<img width="1902" height="922" alt="docker-webapp-output" src="https://github.com/user-attachments/assets/b59daf4f-91bb-4ec9-8b44-0c9668084ec7" />
+
+---
+
+
+# 📚 Key Learnings
+
+- Docker image creation
+- Container deployment
+- Port mapping concepts
+- Running applications inside containers
+- Public application access via EC2
+
+---
+
+# 🚀 Next Step
+
+Day 3:
+Push Dockerized Application to GitHub & Prepare CI/CD Workflow
