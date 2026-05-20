@@ -215,5 +215,62 @@ http://PUBLIC-IP:8080
 
 # 🚀 Next Step
 
-Day 3:
-Push Dockerized Application to GitHub & Prepare CI/CD Workflow
+---
+
+# 🚀 Day 3 — GitHub Repository & Project Documentation
+
+## 📌 Tasks Completed
+
+- Uploaded Docker application files to GitHub
+- Organized repository structure
+- Updated project documentation
+- Added screenshots and deployment details
+- Prepared repository for CI/CD workflow integration
+
+---
+
+# 📂 Repository Structure
+
+```text
+docker-cicd-deployment-aws/
+│
+├── Dockerfile
+├── index.html
+└── README.md
+```
+
+---
+
+# 📸 Screenshots
+
+## GitHub Repository Overview
+
+<img width="1920" height="769" alt="github-repo-overview" src="https://github.com/user-attachments/assets/f7248fee-29ab-4816-8f35-a205f0a19fc7" />
+
+---
+
+## Project Files Uploaded
+
+<img width="1920" height="470" alt="project-files-uploaded" src="https://github.com/user-attachments/assets/327db8f8-2a78-40e1-b24f-2c2a0d3fb599" />
+
+---
+
+## README Documentation
+
+<img width="1208" height="832" alt="github-readme-preview" src="https://github.com/user-attachments/assets/169ca102-7b3d-4b49-8e98-795cbd238789" />
+
+---
+
+# 📚 Key Learnings
+
+- GitHub repository management
+- Project documentation practices
+- Organizing DevOps project structure
+- Version control basics
+
+---
+
+# 🚀 Next Step
+
+Day 4:
+GitHub Actions CI/CD Workflow Setup
